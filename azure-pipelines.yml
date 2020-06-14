@@ -12,5 +12,7 @@ extends:
     package_version: 5.30.0.1
     source_repository: public-conan-center
     destination_repository: ccdc-3rdparty-conan
+    build_types:
+      - Release
     platforms:
       - win2019_vs2019
